@@ -25,8 +25,13 @@ docker push tiger93064/bill-crawler-higher:latest          # push docker image t
 
   
 
-## NOTE
-docker run --env=AWS_ACCOUNT_ID=<AWS_ACCOUNT_ID> --env=AWS_IAM_USERNAME=<AWS_IAM_USERNAME>  --env=AWS_PW=<AWS_PW> -p <OUTBOUND_PORT>:80  -d tiger93064/bill-crawler-higher:latest
+## Docker command 
+docker run 
+--env=AWS_ACCOUNT_ID=`<AWS_ACCOUNT_ID> `
+--env=AWS_IAM_USERNAME=`<AWS_IAM_USERNAME> `
+--env=AWS_PW=`<AWS_PW> `
+-p `<OUTBOUND_PORT>`:80  
+-d tiger93064/bill-crawler-higher:latest
  
  
 
