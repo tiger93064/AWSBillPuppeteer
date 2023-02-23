@@ -42,7 +42,7 @@ docker run <br />
  --env=AWS_ACCOUNT_ID=`AWS_ACCOUNT_ID` <br />
  --env=AWS_IAM_USERNAME=`AWS_IAM_USERNAME`<br />
  --env=AWS_PW=`AWS_PW` <br />
- --env=AWS_REGION_CODE=`AWS_REGION_CODE` (optional default: 'us-east-1')<br />
+ --env=AWS_REGION_CODE=`AWS_REGION_CODE` (optional, default: 'us-east-1')<br />
  -p `OUTBOUND_PORT`:80  <br />
  -d tiger93064/bill-crawler-higher:latest 
  
