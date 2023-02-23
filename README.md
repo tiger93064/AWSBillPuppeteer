@@ -23,7 +23,7 @@ npm run serve
 `GET` http://`YOUR MACHINE IP`/bill
 ```
 
-with query string: <br />
+with following query string<br />
 `billingGroup` :String<br />
 `linkedAccountId` :String<br />
 `year` :String<br />
@@ -47,7 +47,7 @@ docker run <br />
 ### Additional Commands
 
 ```bash
-docker build -t tiger93064/bill-crawler-higher:latest .    # build docker image to local
+docker build -t tiger93064/bill-crawler-higher:latest .    # build docker image to local ⚠️ the dot
 docker push tiger93064/bill-crawler-higher:latest          # push docker image to hub
 
 ```
