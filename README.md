@@ -47,7 +47,7 @@ docker run <br />
 ### Additional Commands
 
 ```bash
-docker build -t tiger93064/bill-crawler-higher:latest .    # build docker image to local ⚠️ the dot
+docker build -t tiger93064/bill-crawler-higher:latest .    # build docker image ⚠️the dot
 docker push tiger93064/bill-crawler-higher:latest          # push docker image to hub
 
 ```
