@@ -3,31 +3,32 @@
 A simple web crawler node service for AWS bill info made of `Express.js` and `Puppeteer`.
  
 
-### Install dependencies ⏬
+### Install dependencies 📚
 
 ```bash
 npm install
 ```
 
-### Start node app ⚒️
+### Start node app 
 
 ```bash
 npm run serve
 ```
 
-### API Document ⚒️
+## API Document 📔
 
-#### Get Bill ⚒️
+#### Get Bill 
 
 ```bash
 `GET` http://`YOUR MACHINE IP`/bill
+
 ```
 
 
-
+<br /><br />
   
 
-## Docker Command 
+## Docker Command 🚧
 docker run <br />
 --env=AWS_ACCOUNT_ID=`AWS_ACCOUNT_ID` <br />
 --env=AWS_IAM_USERNAME=`AWS_IAM_USERNAME`<br />
