@@ -17,12 +17,19 @@ npm run serve
 
 ## API Document 📔
 
-#### Get Bill 
+### Get Bill
 
 ```bash
 `GET` http://`YOUR MACHINE IP`/bill
-
 ```
+
+with query string:
+`billingGroup` :String
+`linkedAccountId` :String
+`year` :String
+`month` :String
+
+
 
 
 <br /><br />
