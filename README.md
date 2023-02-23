@@ -23,11 +23,11 @@ npm run serve
 `GET` http://`YOUR MACHINE IP`/bill
 ```
 
-with query string:
-`billingGroup` :String
-`linkedAccountId` :String
-`year` :String
-`month` :String
+with query string: <br />
+`billingGroup` :String<br />
+`linkedAccountId` :String<br />
+`year` :String<br />
+`month` :String<br />
 
 
 
