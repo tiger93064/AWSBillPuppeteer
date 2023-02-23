@@ -37,7 +37,7 @@ with following query string<br />
 <br /><br />
   
 
-## Docker Command 🚧
+## Docker Command 🐳
 docker run <br />
  --env=AWS_ACCOUNT_ID=`AWS_ACCOUNT_ID` <br />
  --env=AWS_IAM_USERNAME=`AWS_IAM_USERNAME`<br />
