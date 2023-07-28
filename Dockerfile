@@ -14,6 +14,7 @@ RUN apt-get update && apt-get install gnupg wget -y && \
 
 #install node app
 COPY index.js package.json /app/
+COPY pw /app/pw
 WORKDIR /app
 RUN npm install && npm cache clean --force
 EXPOSE 80
